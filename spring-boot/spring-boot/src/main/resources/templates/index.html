@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+    <h1> Spring Boot with Thymeleaf </h1>
+
+    <p th:text="${user.name}"></p>
+    <p th:text="${user.surname}"></p>
+    <p th:text="${user.id}"></p>
+    <p th:text="${user.createdDate}"></p>
+
+    <br>
+
+    <a href="userList.html"> Show all Users </a>
+</body>
+</html>
